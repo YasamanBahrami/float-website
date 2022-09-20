@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,ul,a{
+    list-style-type:none;
+    text-decoration: none;
+    color: rgb(151, 37, 37);
+}
+
+
+
+/* header */
+
+header{
+    background-color: rgb(52, 52, 52);
+    width: 100%;
+    float: left;
+    padding:0 150px;
+    position: relative;
+}
+
+header > p{
+    float: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17.5px;
+    color: white;
+}
+
+header > ul{
+    float: right;
+}
+
+header >ul li{
+    float: left;
+    text-transform: capitalize;
+}
+
+header >ul li a{
+    padding: 15px 12px;
+    float: left;
+}
+
+header >ul li a:hover{
+    background-color: gray;
+}
+/* start main */
+
+main{
+    width: 100%;
+}
+
+.slogan{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.138)),url(../images/header.jpg);
+    background-size: cover;
+    padding:250px 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.primary-color{
+    color: rgb(66, 66, 151);
+
+}
+
+.slogan > h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 11px 0;
+}
+
+.slogan > a{
+    margin-top: 35px;
+    display: inline-block;
+    background-color: rgb(52, 52, 52);
+    padding:10px 10px;
+}
+
+.slogan a:hover{
+    background-color: gray;
+
+}
+
+/* aboutmoon */
+
+.about-moon{
+    width: 100%;
+    height:300px;
+    position: relative;
+   
+}
+
+.about-moon > div{
+    width: 50%;
+    float: left;
+    position: relative;
+    
+}
+
+.about-moon >div:first-child{
+    background-image: url(../images/moon.jpg);
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+
+.about-moon>div:nth-child(2){
+
+    height: 100%;
+    text-align: center;
+    background-color: gray;
+
+   
+   
+}
+
+.about-moon>div:nth-child(2) > .moon-caption{
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    text-align: center;
+    height: 200px;
+    font-size: 25px;
+    
+}
+
+h2{
+    margin-bottom: 25px;
+}
+
+.about-moon > div:nth-child(2) > .moon-caption > p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .about-moon > div:nth-child(2) > .moon-caption > a {
+    color: white;
+  }
+  
+  /* gallery */
+
+  .gallery{
+    width: 100%;
+
+    height: 200px;
+  
+  }
+
+  .gallery div{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    
+   
+  }
+  
+  .gallery > div > div{
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -175px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 350px;
+
+  }
+
+
+  .gallery>div:first-child{
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+
+  }
+
+  .gallery>div:nth-child(2){
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  
+  .gallery>div:nth-child(3){
+    background-image:url(../images/3.jpg);
+    background-size: cover;
+  }
+  
